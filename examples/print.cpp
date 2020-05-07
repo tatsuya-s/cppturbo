@@ -1,5 +1,5 @@
 #include <iostream>
-#include "turbo_colormap.hpp"
+#include "cppturbo.hpp"
 
 int main()
 {

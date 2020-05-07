@@ -14,7 +14,7 @@
 #include <vtkWindowToImageFilter.h>
 #include <vtkImageShiftScale.h>
 #include <vtkPNGWriter.h>
-#include "turbo_colormap.hpp"
+#include "cppturbo.hpp"
 
 int main(int argc, char* argv[]) {
     if (argc < 3) {

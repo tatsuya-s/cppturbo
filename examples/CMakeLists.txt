@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(turbo_examples CXX)
+project(cppturbo_examples CXX)
 set(CMAKE_CXX_STANDARD 14)
 
 find_package(VTK QUIET)

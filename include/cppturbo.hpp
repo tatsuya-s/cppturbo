@@ -1,5 +1,5 @@
 //!
-//! @file turbo_colormap.hpp
+//! @file cppturbo.hpp
 //! @brief The Turbo colormap for C++
 //! @author Tatsuya Sakuma
 //! @note
@@ -9,8 +9,8 @@
 //!         https://gist.github.com/mikhailov-work/6a308c20e494d9e0ccc29036b28faa7a
 //!
 
-#ifndef TURBO_COLORMAP_HPP_
-#define TURBO_COLORMAP_HPP_
+#ifndef CPPTURBO_HPP_
+#define CPPTURBO_HPP_
 
 #include <iostream>
 
@@ -27,7 +27,7 @@ namespace turbo
 
         constexpr friend std::ostream& operator<<(std::ostream& stream, const Color& c)
         {
-            stream << "(r:" << static_cast<double>(c.r) << ", g:" << static_cast<double>(c.g) << ", b:" << static_cast<double>(c.b) << ")";
+            stream << "r:" << static_cast<double>(c.r) << ", g:" << static_cast<double>(c.g) << ", b:" << static_cast<double>(c.b);
             return stream;
         };
     };
@@ -351,10 +351,10 @@ namespace turbo
         color = Color<int>(static_cast<int>(floats.r * 255 + 0.5), static_cast<int>(floats.g * 255 + 0.5), static_cast<int>(floats.b * 255 + 0.5));
     }
 
-    typedef Color <float> Color3f;
-    typedef Color <double> Color3d;
-    typedef Color <unsigned char> Color3b;
-    typedef Color <int> Color3i;
+    using Color3f = Color<float>;
+    using Color3d = Color<double>;
+    using Color3b = Color<unsigned char>;
+    using Color3i = Color<int>;
 }
 
-#endif // TURBO_COLORMAP_HPP_
+#endif // CPPTURBO_HPP_
