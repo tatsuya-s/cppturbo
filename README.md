@@ -46,3 +46,14 @@ std::cout << "r:" << floats.r << ", "
 ## License
 
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+## Acknowledgments
+
+This software contains code from [turbo_colormap.c](https://gist.github.com/mikhailov-work/6a308c20e494d9e0ccc29036b28faa7a)
+
+```
+Copyright 2019 Google LLC.
+SPDX-License-Identifier: Apache-2.0
+
+Author: Anton Mikhailov
+```
