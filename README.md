@@ -2,9 +2,7 @@
 
 A header-only, C++ implementation of the Turbo colormap
 
-<p align="center">
-  <img src="doc/bunny.png">
-</p>
+<img src="doc/bunny.png" width=50%>
 
 Source for the above image can be found [here](examples/zbuffer.cpp).
 
