@@ -3,14 +3,6 @@
 
 int main()
 {
-    // Get the turbo color as simply
-    // param[in] index in [0   - 255]
-    // return    color in [0.0 - 1.0]
-
-    const turbo::Color<float> color = turbo::GetColor(128);
-    std::cout << color.r << ", " << color.g << ", " << color.b << std::endl;
-
-
     // Get the turbo color with selected format
     // param[in]  target value in [0.0 - 1.0] or [0 - 255]
     // param[out] turbo color in float, double, uchar, or int
@@ -28,10 +20,10 @@ int main()
     turbo::GetColor(val_i, uchars);
     turbo::GetColor(val_d, ints);
 
-    std::cout << floats  << std::endl;
-    std::cout << doubles << std::endl;
-    std::cout << uchars  << std::endl;
-    std::cout << ints    << std::endl;
+    std::cout << floats  << std::endl; // (r:0.64362, g:0.98999, b:0.23356)
+    std::cout << doubles << std::endl; // (r:0.64362, g:0.98999, b:0.23356)
+    std::cout << uchars  << std::endl; // (r:164, g:252, b:60)
+    std::cout << ints    << std::endl; // (r:164, g:252, b:60)
 
     return 0;
 }

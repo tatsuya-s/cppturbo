@@ -1,9 +1,8 @@
-cmake_minimum_required(VERSION 3.1)
-
-project(turbo)
+cmake_minimum_required(VERSION 3.0)
+project(turbo CXX)
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(include)
+add_library(turbo INTERFACE)
+target_include_directories(turbo INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
-add_executable(colormap_test src/main.cpp)
-target_link_libraries(colormap_test)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/include/turbo_colormap.hpp DESTINATION include)
