@@ -1,13 +1,13 @@
 # cppturbo
 
-A header-only, C++ implementation of the Turbo colormap
+A header-only, C++ implementation of the [Turbo colormap](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html)
 
 <img src="doc/bunny.png" width=50%>
 
-Source for the above image can be found [here](examples/zbuffer.cpp).
+Source for the above image can be found [here](examples/zbuffer.cpp)
 
 ## Installation
-Simply add `cppturbo.hpp` to your project 
+Simply add `cppturbo.hpp` to your project
 
 If you use cppturbo in cmake project:
 ```
@@ -42,3 +42,7 @@ std::cout << "r:" << floats.r << ", "
           << "g:" << floats.g << ", "
           << "b:" << floats.b << std::endl;
 ```
+
+## License
+
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
