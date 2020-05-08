@@ -1,13 +1,13 @@
-//!
-//! @file cppturbo.hpp
-//! @brief The Turbo colormap for C++
-//! @author Tatsuya Sakuma
-//! @note
-//!     This code is implemented based on the Turbo color map by Google LLC.
-//!         Anton Mikhailov, “Turbo, An Improved Rainbow Colormap for Visualization”
-//!         https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html
-//!         https://gist.github.com/mikhailov-work/6a308c20e494d9e0ccc29036b28faa7a
-//!
+/**
+ * @file cppturbo.hpp
+ * @brief The Turbo colormap for C++
+ * @author Tatsuya Sakuma
+ * @note
+ * This code is implemented based on the Turbo colormap by Google LLC.
+ * Anton Mikhailov, "Turbo, An Improved Rainbow Colormap for Visualization"
+ * https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html
+ * https://gist.github.com/mikhailov-work/6a308c20e494d9e0ccc29036b28faa7a
+ */
 
 #ifndef CPPTURBO_HPP_
 #define CPPTURBO_HPP_
