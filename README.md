@@ -2,9 +2,9 @@
 
 A header-only, C++ implementation of the [Turbo colormap](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html)
 
-<img src="doc/bunny.png" width=20%> <img src="doc/dragon.png" width=20%>
+<img src="doc/armadillo.png" width=20%><img src="doc/bunny.png" width=20%><img src="doc/dragon.png" width=20%>
 
-Source for the above image can be found [here](examples/zbuffer.cpp)
+Source for the above images can be found [here](examples/zbuffer.cpp)
 
 ## Installation
 Simply add `cppturbo.hpp` to your project
