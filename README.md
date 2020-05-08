@@ -2,7 +2,7 @@
 
 A header-only, C++ implementation of the [Turbo colormap](https://ai.googleblog.com/2019/08/turbo-improved-rainbow-colormap-for.html)
 
-<img src="doc/anim.gif" width=40%>
+<img src="doc/anim_rgb.gif" width=40%>
 
 Source for the above images can be found [here](examples/zbuffer.cpp)
 
